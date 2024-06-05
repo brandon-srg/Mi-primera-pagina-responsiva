@@ -1,0 +1,659 @@
+body{
+    margin: 0;
+    font-family: arial;
+}
+
+header{
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url(../images/banner-bk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 100px;
+    color: white;
+    padding:50px;
+}
+
+.one-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;margin: 20px 40px;
+}
+.img-logo{
+    width: 150px;
+}
+
+.link-access-early{
+    color: rgb(182, 180, 180);
+    text-decoration: none;
+}
+
+
+.text-main{
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+.description-main{
+    width: 50vw;
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    background-color:rgb(1,255,173);
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.section-gradient{
+    background-image: linear-gradient(168deg, #ffffff 55%, #00ffae 0);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.three-line{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+}
+
+.target{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.hsix{
+    font-size: 25px;
+}
+
+.four-line{
+    margin: 200px 0;
+    padding: 0 70px;
+    display: flex;
+    justify-content:space-around;
+}
+
+
+h3{
+    font-size: 33px;
+}
+
+.five-line{
+    text-align: center;
+    font-weight: 700;
+}
+
+.button-dark{
+    background-color: rgb(5, 1, 59);
+    color: white;
+}
+
+.card-black{
+    background-color: rgb(1, 0, 48);
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+#a{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+#b{
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+    font-weight: 700;
+}
+
+.card{
+    padding: 25px;
+    font-size: 25px;
+    width: 600px;
+    text-align: center;
+}
+
+.money{
+    display: flex;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#button-white{
+    background-color: white;
+    border: solid 1px ;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+}
+
+#button-sub{
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+
+.contacto{
+    background-image: url(../images/contact-bk.jpg);
+    display: flex;
+    height: auto;
+    background-size: cover;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.contacto p{
+    font-size: 22px;
+}
+.contacto .ap1{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 100px;
+    width: 30vw;
+}
+
+.contacto .ap1 p:nth-child(2){
+    margin: 2px;
+    line-height: 1.0;
+}
+
+.contacto .ap1 h2{
+    font-size: 40px;
+}
+
+.cont{
+    margin-bottom: 21px;
+}
+
+footer{
+    background-color: #192440;
+    color:  white;
+    height: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+footer p{
+    margin-left: 192px;
+}
+
+.contacto{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 22px;
+}
+
+.formularioUltimo.arriba{
+    max-width: 30vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.formularioUltimo .arriba input{
+   background-color: transparent;
+   border-color: rgb(1, 255, 173) ;
+   border-radius: 10px;
+   height: 52px;
+}
+
+.formularioUltimo .arriba div:nth-child(1){
+    margin-right: 10px;
+}
+
+.formularioUltimo .arriba label{
+    display: flex;
+    color: rgb(1, 255, 173);
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.formularioUltimo .abajo {
+    display: flex;
+    color: rgb(1, 255, 173);
+    flex-direction: column;
+}
+.formularioUltimo .abajo label {
+    margin: 33px 0 20px 0;
+}
+.arriba{
+    display: flex;
+}
+.formularioUltimo .abajo textarea{
+    background-color: transparent;
+
+    border-color: rgb(1, 255, 173) ;
+    border-radius: 10px;
+    height: 111px;
+}
+.formularioUltimo .abajo .submit{
+    background-color: rgb(1, 255, 173);
+    color: black;
+    border-radius: 50px;
+    height: 67px;
+    margin-top: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    border-color: rgb(1, 255, 173);
+}
+.arriba div{
+    flex-direction: column;
+}
+
+
+.logos {
+    background-color: hsl(200, 9%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+
+.logos img {
+    width: 80px;
+    padding: 0 40px;
+}
+
+.precios {
+    max-width: 1228px;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+footer section img{
+    flex-direction: row;
+    background-color: white;
+    border-radius: 100%;
+    width: 67px;
+    margin-right: 17px;
+}
+
+footer section{
+    margin-right: 92px;
+}
+
+
+@media screen and (min-width:1280px){
+    header{
+        height: 500px;
+    }
+
+    .img-logo{
+        width: 70px;
+    }
+
+    .four-line{
+        margin: 0 100px;
+    }
+
+    .logos{
+        width: 100vw;
+        height: 150px;
+    }
+
+    .logos div img {
+        width: 70px;
+        height: 50px;
+    }
+    
+    .h2-form{
+        font-size: 28px;
+    }
+
+    .div .ap1{
+        width: 100px;
+        font-size: 12px;
+        margin: none;
+    }
+
+    .cont{
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+
+    .formularioUltimo .arriba input{
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .formularioUltimo .abajo input{
+        margin-bottom: 100px;
+    }
+    footer{
+        height: 100px;
+    }
+
+    footer section img{
+        width: 40px;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:921px) and (max-width:1279px){
+
+
+
+    .logos div img {
+        width: 40px;
+        height: 50px;
+    }
+
+    .four-line img{
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:920px){
+    .logos {
+        flex-direction: column;
+    }
+
+    .formularioUltimo .arriba{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formularioUltimo .arriba input{
+        margin-bottom: 15px;
+    }
+
+    .formularioUltimo .abajo .submit{
+        margin-bottom: 30px;
+    }
+
+    footer section{
+        margin-right: 1px;
+        padding: 10px;
+    }
+
+    footer p{
+        margin-left:60px;
+        justify-content: space-evenly ;
+    }
+
+    .four-line{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .four-line img{
+        width: 60vw;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px){
+    .img-logo{
+        width: 50px;
+    }
+
+    .text-main{
+        font-size: 20px;
+    }
+
+    .description-main{
+        font-size: 12px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .three-line{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .target img{
+        width: 100px;
+    }
+
+    .target p {
+        font-size: 13px;
+    }
+
+    .four-line{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 250px;
+        font-size: 12px;
+    }
+
+    .logos {
+        flex-direction: column;
+    }
+
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formularioUltimo .arriba{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formularioUltimo .arriba input{
+        margin-bottom: 15px;
+    }
+
+    .formularioUltimo .abajo .submit{
+        margin-bottom: 30px;
+    }
+
+
+    .logos{
+        width: 100vw;
+    }
+
+    .ap1 p{
+        font-size: 12px;
+
+    }
+
+    .ap2 .formularioUltimo{
+        font-size: 10px;
+        
+    }
+
+    .ap2 .formularioUltimo input{
+        padding: auto;
+        color: white;
+    }
+
+    .ap2 .formularioUltimo .abajo .submit{
+        font-size: 20px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    footer p {
+        font-size: 12px;
+        margin: 0;
+        padding: 20px;
+    }
+    footer section img{
+        flex-direction: row;
+        background-color: white;
+        border-radius: 100%;
+        width: 30px;
+        align-items: center ;
+        justify-content: center;
+        margin: 0;
+    }
+
+
+}
+
+
+@media screen and (min-width:352px) and (max-width:480px){
+    .img-logo{
+        width: 50px;
+    }
+
+    .text-main{
+        font-size: 20px;
+    }
+
+    .description-main{
+        font-size: 12px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .three-line{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .target img{
+        width: 90px;
+    }
+
+    .target p {
+        font-size: 10px;
+    }
+
+    .four-line{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 250px;
+        font-size: 12px;
+    }
+
+    .logos {
+        flex-direction: column;
+    }
+
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formularioUltimo .arriba{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formularioUltimo .arriba input{
+        margin-bottom: 15px;
+    }
+
+    .formularioUltimo .abajo .submit{
+        margin-bottom: 30px;
+    }
+
+
+    .logos{
+        width: 100vw;
+    }
+
+    .ap1 p{
+        font-size: 12px;
+
+    }
+
+    .ap2 .formularioUltimo{
+        font-size: 10px;
+        
+    }
+
+    .ap2 .formularioUltimo input{
+        padding: auto;
+        color: white;
+    }
+
+    .ap2 .formularioUltimo .abajo .submit{
+        font-size: 20px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    footer p {
+        font-size: 12px;
+        margin: 0;
+        padding: 20px;
+    }
+    footer section img{
+        flex-direction: row;
+        background-color: white;
+        border-radius: 100%;
+        width: 30px;
+        align-items: center ;
+        justify-content: center;
+        margin: 0;
+    }
+
+
+}
